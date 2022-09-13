@@ -17,5 +17,6 @@ $resultsArray = [System.Collections.ArrayList]::new()
 # Kick it off
 $account = StartupInfo
 $advisor = GetAdvisorRecommendations($resultsArray)
+$storageAccounts = GetStorageAccountsInfo($resultsArray)
 
 $resultsArray
